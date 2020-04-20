@@ -1,6 +1,6 @@
 {
   "name": "nato",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magicnat/who.nat.moe.git"
+    "url": "git+https://gitlab.nat.moe/nat/nato-biopage.git"
   },
   "author": "Maho Morichika <nat@nat.moe>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/magicnat/who.nat.moe/issues"
+    "url": "https://gitlab.nat.moe/nat/nato-biopage/issues"
   },
-  "homepage": "https://github.com/magicnat/who.nat.moe/",
+  "homepage": "https://gitlab.nat.moe/nat/nato-biopage",
   "devDependencies": {
     "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
