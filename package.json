@@ -1,8 +1,8 @@
 {
   "name": "nato",
   "version": "0.0.2",
-  "description": "",
-  "main": "gulpfile.js",
+  "description": "nato's bio page",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,10 +18,10 @@
   "homepage": "https://gitlab.nat.moe/nat/nato-biopage",
   "devDependencies": {
     "font-awesome": "^4.7.0",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.4.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
     "unsemantic": "^1.2.3"
   }
 }
