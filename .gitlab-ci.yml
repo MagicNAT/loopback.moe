@@ -1,0 +1,18 @@
+image: node:latest
+
+cache:
+  paths:
+    - node_modules
+    
+before_script:
+  - npm install --save-dev
+
+pages:
+  stage: deploy
+  script:
+    - ./node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
